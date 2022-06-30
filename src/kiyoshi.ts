@@ -1,5 +1,4 @@
 const kiyoshi = () =>{
-	
 	//元の配列を定義
 	const originArray: Array<string> = ["zun","doko"];
 	const cloneArray: Array<string> = [...originArray];
