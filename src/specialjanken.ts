@@ -11,7 +11,6 @@ class spjanken {
         if (this.you == this.pc){
             return `You : ${this.you} pc : ${this.pc} あいこ`;
         }else if(this.you == "gu-" && this.pc == "choki" || this.you == "choki" && this.pc == "pa-" || this.you == "pa-" && this.pc == "gu-"){
-    //	}else if(pc =="pa-"){
             return `You : ${this.you} pc : ${this.pc}  WIN`;
         }else{
             return `You : ${this.you} pc : ${this.pc} LOSE`;

@@ -17,4 +17,4 @@ const kiyoshi = () =>{
 }
 
 console.log(kiyoshi());
-//console.log(shuffleArray(["zun","doko"]));
+
